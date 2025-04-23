@@ -1,11 +1,11 @@
 ### Guia de programación de Codey Rocky en Python
 
 Para usar estas funciones, generalmente necesitarás importar los módulos correspondientes al inicio de tu script. Para Codey Rocky, los objetos principales suelen ser codey (para la unidad principal Codey) y rocky (para el chasis Rocky).
-
+```python
 import codey
 import rocky
 import time # Útil para pausas en el código
-
+```
 ---
 
 #### 1. Movimiento del Chasis Rocky
