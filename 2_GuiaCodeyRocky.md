@@ -120,6 +120,23 @@ codey.speaker.play_tone(frequency, time=None)
 - `frequency`: Frecuencia en Hertz (Hz). Un rango común es 0 a 5000.
 - `time`: Duración en milisegundos (ms) (opcional). Si no se especifica, suena continuamente hasta stop_sounds().
 
+#### 5. Detección de pulsación en botones
+
+Para que Codey detecte que se ha presionado un botón, debe estar en bucle infinito (`while True`) comprobando si se presiona mediante un `if`.
+
+```python
+while True:
+    if codey.button_a.is_pressed():
+        #Codigo a realizar
+```
+
+Los eventos de cada botón son:
+- Botón A: `codey.button_a.is_pressed()`
+- Botón B: `codey.button_b.is_pressed()`
+- Botón C: `codey.button_c.is_pressed()`
+
+
+
 
 
 
