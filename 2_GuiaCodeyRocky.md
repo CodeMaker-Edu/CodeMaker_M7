@@ -15,11 +15,10 @@ import time #Solo si necesitas esperas en segundos
 El `rocky` controla los motores del chasis. La velocidad se suele expresar en un rango de -100 a 100.
 
 ```python
-rocky.forward(speed, t, straight)
+rocky.forward(speed, t)
 ```
 - `speed`: Velocidad (-100 a 100). Positivo para adelante.
 - `t`: Tiempo en segundos (opcional). Si no se especifica, se mueve continuamente.
-- `straight`: Booleano (True/False). Si es True, usa el giroscopio para intentar ir recto.
 
 También puedes indicar solo la velocidad y después añadir una espera de tiempo y por último detener al robot.
 ```python
