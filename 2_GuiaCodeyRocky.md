@@ -1,10 +1,10 @@
 ### Guia de programación de Codey Rocky en Python
 
-Para usar estas funciones, generalmente necesitarás importar los módulos correspondientes al inicio de tu script. Para Codey Rocky, los objetos principales suelen ser codey (para la unidad principal Codey) y rocky (para el chasis Rocky).
+Para usar estas funciones, necesitarás importar los módulos correspondientes al inicio de tu script. Para Codey Rocky, los objetos principales suelen ser codey (para la unidad principal Codey) y rocky (para el chasis Rocky).
 ```python
 import codey
 import rocky
-import time # Útil para pausas en el código
+import time #Solo si necesitas esperas en segundos
 ```
 ---
 
@@ -53,15 +53,15 @@ Codey Rocky tiene LEDs RGB tanto en la unidad Codey como en el chasis Rocky.
 **Luces en el LED Codey (cabeza):**
 
 ```python
-codey.color(color, t)
+codey.led.show(255, 0, 0, t)
 ```
 
-- `color`: Puede ser un nombre de color en inglés ("red", "green", "blue", "yellow", "cyan", "purple", "white", "black" para apagar) o un código hexadecimal como "#RRGGBB".
+- `255,0,0`: código RGB del color.
 - `t`: Tiempo en segundos (opcional).
 
 **Luces en el LED de Rocky (cuerpo):**
 ```python
-rocky.color(color)
+rocky.color_ir_sensor.set_led_color(color)
 ```
 - `color`: Nombre de color en inglés ("red", "green", "blue", etc.) o código hexadecimal.
 
@@ -115,7 +115,7 @@ El altavoz integrado en Codey (codey.speaker) permite reproducir sonidos y tonos
 ```python
 codey.speaker.play_melody(file_name)
 ```
-- `file_name`: Nombre del archivo (ej: "hello.wav", "hi.wav", "yeah.wav", etc.). Consulta la documentación para la lista completa.
+- `file_name`: Nombre del archivo (ej: "hello.wav", "hi.wav", "yeah.wav", etc.).
 
 **Reproducir tonos:**
 ```python
