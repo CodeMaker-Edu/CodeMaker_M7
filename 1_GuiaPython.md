@@ -93,3 +93,8 @@ Puntos clave:
 - En el bucle while, asegúrate de que la condición eventualmente se vuelva falsa para evitar bucles infinitos.
 - Usa break para salir de un bucle prematuramente.
 - Usa continue para saltar el resto del código en la iteración actual y pasar a la siguiente.
+
+**MÁS APUNTES DE PYTHON**
+
+Esta es una guía resumida de Python, puedes ver una guía completa en [W3SCHOOLS](https://www.w3schools.com/python)
+
