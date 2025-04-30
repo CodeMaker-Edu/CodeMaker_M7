@@ -29,3 +29,13 @@ Añade que entre un pequeño giro y el siguiente, se detenga enciendiendo su LED
 **Ejercicio 6. El aparcamiento.**
 
 Pide a tu profesor/a que coloque 2 cajas que Codeys en una mesa libre o en el suelo, dejando un hueco entre ellas. Coloca tu Codey junto a la primera caja, y prográmalo para que avance y haga las maniobras necesarias para aparcar en el hueco entre las dos cajas.
+
+**Ejercicio 7. Secuencias de movimientos en memoria.**
+
+Programa a Codey Rocky para que sea capaz de guardar una secuencia de movimientos y después ejecutarlos. Los movimientos serán:
+- Botón A: avanzar 1 segundo (mostrando una "A" en pantalla).
+- Botón B: retroceder 1 segundo (mostrando una "R" en pantalla).
+- Botón C: ejecutar secuencia.
+De esta forma, una vez programado, podremos dar mútiples veces a los botones A y B para almacenar múltiples movimientos, y el robot no se moverá hasta que no pulsemos después el boton C. 
+
+
