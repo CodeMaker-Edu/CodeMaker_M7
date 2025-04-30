@@ -94,6 +94,22 @@ Puntos clave:
 - Usa break para salir de un bucle prematuramente.
 - Usa continue para saltar el resto del código en la iteración actual y pasar a la siguiente.
 
+#### 4. Listas
+
+En python poder crear listas de la siguiente forma:
+```python
+nombres = ["juan", "maria", "alvaro"]
+```
+
+Y después realizar las siguientes operaciones:
+- `nombres[2]`: me indica el valor guardado en la tercera posición (recuerda que las listas empiezan en la posición 0). Resultado: "alvaro"
+- `nombres.append("laura")`: añade un nuevo elemento al final de la lista.
+- `nombres[0]` = "jose": modifica el valor en la primera posición.
+- `len(nombres)`: devuelve la longitud de la lista.
+
+---
+
+
 **MÁS APUNTES DE PYTHON**
 
 Esta es una guía resumida de Python, puedes ver una guía completa en [W3SCHOOLS](https://www.w3schools.com/python)
