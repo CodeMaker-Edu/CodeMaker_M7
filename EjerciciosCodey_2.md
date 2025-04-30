@@ -36,6 +36,7 @@ Programa a Codey Rocky para que sea capaz de guardar una secuencia de movimiento
 - Botón A: avanzar 1 segundo (mostrando una "A" en pantalla).
 - Botón B: retroceder 1 segundo (mostrando una "R" en pantalla).
 - Botón C: ejecutar secuencia.
+
 De esta forma, una vez programado, podremos dar mútiples veces a los botones A y B para almacenar múltiples movimientos, y el robot no se moverá hasta que no pulsemos después el boton C. 
 
 
