@@ -34,7 +34,6 @@ Los bloques son:
 | `cyan`          | Prismarina                               |
 | `purple`        | Amatista                                 |
 | `black`         | Carbón                                   |
-| `white`         | Bloque de hueso                          |
 
 Cuando el robot haya detectado los 3 bloques, avanzará durante 3 segundos y mostrará en pantalla el objeto que ha podido craftear con ellos. Las posibilidades son:
 
@@ -44,9 +43,6 @@ Cuando el robot haya detectado los 3 bloques, avanzará durante 3 segundos y mos
 | red + yellow + black                 | Dinamita (TNT)           |
 | blue + white + black                 | Pico de diamante         |
 | green + green + yellow               | Arco                     |
-| cyan + blue + white                  | Tridente                 |
 | red + purple + black                 | Poción de invisibilidad  |
 | yellow + red + blue                  | Portal al Nether         |
-| green + white + white                | Armadura de cuero        |
 | purple + cyan + black                | Cañón de Ender           |
-| white + black + red                  | Escudo                   |
