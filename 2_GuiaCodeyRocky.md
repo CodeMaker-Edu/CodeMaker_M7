@@ -135,8 +135,23 @@ Los eventos de cada botón son:
 - Botón B: `codey.button_b.is_pressed()`
 - Botón C: `codey.button_c.is_pressed()`
 
+#### 6. Sensores
 
+Codey Rocky puede detectar obstáculos, colores, luz, etc. gracias a sus sensores. Se deben programación siempre en un `if` que comprueba el sensor, que debe estar siempre dentro de un `while True` para que esté siempre comprobando.
 
+Comprobar si hay un obstáculo delante.
+```python
+while True:
+    if rocky.color_ir_sensor.is_obstacle_ahead():
+        # Tareas a realizar
+```
 
+Comprobar si se ha detectado un determinado color (funciona con los colores `'red'`, `'green'`, `'blue`, `'yellow'`, `'cyan'`, `'purple'`, `'black'` y `'white'`:
+```python
+while True:
+    if rocky.color_ir_sensor.is_color('red'):
+        # Tareas a realizar
+```
 
-
+> [!WARNING]
+> En tu programa solo puede haber un único bucle `while True`, por lo que si usas varios sensores o botones, tendrás que colocar todos los `if` dentro del mismo bucle.
