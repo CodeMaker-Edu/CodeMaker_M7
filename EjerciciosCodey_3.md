@@ -41,7 +41,6 @@ Cuando el robot haya detectado los 3 bloques, avanzará durante 3 segundos y mos
 |--------------------------------------|--------------------------|
 | red + green + blue                   | Espada mágica            |
 | red + yellow + black                 | Dinamita (TNT)           |
-| blue + white + black                 | Pico de diamante         |
 | green + green + yellow               | Arco                     |
 | red + purple + black                 | Poción de invisibilidad  |
 | yellow + red + blue                  | Portal al Nether         |
