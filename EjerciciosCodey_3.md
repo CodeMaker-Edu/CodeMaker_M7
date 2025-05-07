@@ -31,7 +31,7 @@ Los bloques son:
 | `green`         | Bloque de esmeralda                      |
 | `blue`          | Lapislázuli                              |
 | `yellow`        | Lingote de oro                           |
-| `cyan`          | Prismarina                               |
+| `cyan`          | Diamante                                 |
 | `purple`        | Amatista                                 |
 | `black`         | Carbón                                   |
 
