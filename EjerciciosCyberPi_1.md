@@ -18,8 +18,9 @@ El joystick arriba-abajo permite configurar un tiempo en segundos (se va viendo 
 Debes crear un menú de opciones, de forma que el joystick (arriba-abajo) va cambiando la opción que se muestra en pantalla del menú. El menú debe tener un total de 5 opciones, que serán 5 funciones de Cyberpi que tú puedes elegir. Por ejemplo:
 - Opción 1: efectos de LEDs.
 - Opción 2: emitir canción.
-- Opción 3: textu de saludo en pantalla.
+- Opción 3: texto de saludo en pantalla.
 - Etc.
+
 Con el joystick se elige la opción, y con el botón `A` se selecciona (se realiza la acción seleccionada).
 
 Opcional: puedes mostrar cada opción del menú con texto o con iconos.
