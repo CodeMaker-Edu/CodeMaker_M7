@@ -43,6 +43,12 @@ cyberpi.led.show('red orange yellow green cyan')
 cyberpi.led.on(255, 0, 0, 1)
 ```
 
+**Apagar LEDs:**
+```python
+cyberpi.led.off(1) #Apagar el LED en posición 1
+cyberpi.led.off("all") #Apagar todos los LEDs
+```
+
 ---
 
 ### Pantalla
@@ -76,6 +82,21 @@ icono = cyberpi.sprite() #Se crea una variable icono antes de los bucles y condi
 icono.draw_pixel("Image")
 ```
 Iconos disponibles: `Image`, `Play`, `Light`, `Music`, `Clock`, `Motion`, `Home`, `Shut_down`, `Rocket`, `Fire`, `Color`, etc.
+
+**Hacer dibujos (pincel):**
+
+Para poder dibujar en la pantalla de Cyberpi, primero se deben configurar las opciones de `sketch` (esto se hace solo una vez, no dentro de bucles).
+```python
+cyberpi.sketch.start() #Especifica que se va a empezar a dibujar
+cyberpi.sketch.set_color(252, 3, 7) #Especifica el color del que se va a dibujar
+cyberpi.sketch.set_size(8) #Especifica el tamaño de la línea a dibujar
+```
+
+Después, podemos mover el *pincel* para dibujar en pantalla:
+```python
+cyberpi.sketch.move_x(10) #Mueve 10 píxeles a la derecha
+```
+Se puede mover en `x`, en `y`, en `positivo` y en `negativo`.
 
 ---
 
