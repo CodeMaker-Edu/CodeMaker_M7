@@ -1,3 +1,15 @@
+## Programación de Cyberpi con Python
+
+Para poder programar la Cyberpi en Python, necesitamos lo primero importar la librería necesaria:
+
+```python
+import cyberpi
+```
+
+Veamos ahora cómo programar los diferentes componentes de Cyberpi, como su joystick, botones, tira de LEDs, pantalla, etc. Recuerda que deberás combinar las funciones que se explican aquí con tus conceptos generales sobre Python (variables, bucles, condicionales...).
+
+---
+
 ### Audio
 
 Emitir audio `hi`, `bye`, `ring`, `score`, `heartbeat`, etc.:
