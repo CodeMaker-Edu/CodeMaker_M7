@@ -13,6 +13,7 @@ Adapta el siguielíneas para que comience a velocidad 50, pero con cada pulsaci�
 - Pulsación hacia abajo: disminuye 10 de velocidad (sin llegar a bajar de 0).
 - Pulsación hacia un lado: el robot da una vuelta 360º hacia ese lado, y continúa si siguelíneas.
 - Pulsación central: el robot se para durante unos segundos, emite sonidos y juegos de luces, y continúa su siguelíneas.
+(Debe mostrar en todo momento en la pantalla la velocidad a la que va)
 
 **Ejercicio 4: El robot que te sigue.**
 

@@ -10,10 +10,11 @@ import event, time, cyberpi, mbot2, mbuild
 
 **Avanzar:**
 
-Utilizando las mismas funciones podemos avanzar `forward` o retroceder `backward`.
+Utilizando las mismas funciones podemos avanzar `forward` o retroceder `backward`. También se puede avanzar por centímetros con `straight`.
 ```python
 mbot2.forward(50, 1) #velocidad 50, 1 segundo
 mbot2.forward(50)    #velocidad 50, indefinidamente
+mbot2.straight(100)  #avanzar un número de centímetros exactos
 ```
 
 **Giros:**
