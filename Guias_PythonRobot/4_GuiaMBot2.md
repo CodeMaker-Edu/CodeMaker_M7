@@ -61,3 +61,12 @@ El estado tiene diferentes números, que significan:
 Veámoslo más claro en una imagen:
 ![image](https://github.com/user-attachments/assets/39c763df-835b-4a85-befe-d813fa136b41)
 
+### Detectar colores con alguno de los sensores Quad RGB:
+
+Los sensores Quad RGB del siguelíneas también permiten detectar colores, con la siguiente instrucción:
+
+```python
+    if (mbuild.quad_rgb_sensor.is_color("red","R2",1)):
+```
+
+En `red` se pueden poner otros colores (`red`, `yellow`, `green`, `cyan`...), y en `R2` se pueden poner otros sensores (`R1`, `R2`, `R3`, `R4`).
